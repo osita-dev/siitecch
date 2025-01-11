@@ -18,7 +18,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://siitecch-learn.vercel.app',
   credentials: true,
 }));
 app.use(express.json());
